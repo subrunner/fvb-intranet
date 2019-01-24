@@ -1,0 +1,51 @@
+
+.xccstyle .navtop .subdrop li a {
+	background-color: $navtopBackgroundATagColor;
+	/* border-color: rgba(0,0,0,0); */
+	color: $navtopColor !important;
+}
+
+.xccstyle .navtop .maindrop li:hover >
+a,
+.xccstyle .navtop .subdrop li:hover >
+a,
+.xccstyle .navtop .thirddrop li:hover >
+a {
+	background-color: $navtopHoverBackgroundATagColor;
+	box-shadow: 1px 1px 5px 0 $widgetBoxShadowColor;
+	color: $navtopHoverColor;
+}
+
+body .hikari.ics-scbanner.isfixed >
+a,
+body .ics-scbanner >
+a +
+.navmenu,
+body .ics-scbanner >
+.admin {
+	color: $scBannerColor !important;
+	font-family: Roboto, sans-serif;
+}
+
+.xccstyle .navtop .maindrop li a {
+	border-right: none;
+}
+
+.xccstyle .navtop .navigation {
+	background-color: $navigationBackgroundColor;
+	border: none;
+	margin: 2vw 0 1px;
+	text-align: center;
+}
+
+.xccstyle .xccHeader .navigation ul.maindrop li a {
+	font-size: 1.1vw;
+}
+
+.xccstyle .xccHeader .navigation ul.maindrop ul li a {
+	color: $navigationColor;
+}
+
+.xccstyle .xccHeader .navigation ul.maindrop ul li a:hover {
+	color: $navigationHoverColor;
+}

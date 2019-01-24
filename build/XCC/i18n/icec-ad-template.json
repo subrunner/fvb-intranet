@@ -1,0 +1,102 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sirius Schmidt"
+		],
+		"last-updated": "2017-08-09",
+		"locale": "en",
+		"message-documentation": "Localisation template strings for the IBM Connections Engagement Center"
+	},
+
+	"a_dashb_title": "Connections Engagement Center - Admin Dashboard",
+	"a_dashb_cloud_title": "Connections Engagement Center - Cloud Admin Dashboard",
+
+	"a_dashb_not_authorized_retrieve": "You are not authorized to retrieve configurations, click OK to redirect to login page",
+	"a_dashb_not_authorized_submit": "You are not authorized to submit configurations, click OK to redirect to login page",
+
+	"a_dashb_star": "*",
+	"a_dashb_error": "Error",
+
+	"a_dashb_duplicatekey_msg": "Duplicate of the key $1. Please remove the duplicate.",
+
+	"a_dashb_duplicatekey_msgbox_title": "Duplicate keys found",
+	"a_dashb_duplicatekey_msgbox_btn": "OK, I'll remove it",
+
+	"a_dashb_configchanged_success": "Config changed successfully",
+	"a_dashb_configchanged_success_msg_short": "The configuration was changed successfully",
+
+	"a_dashb_configchanged_success_msg": "The configuration was changed successfully, please restart the application immediately to take these changes in effect.",
+	"a_dashb_configchanged_success_btn": "OK, I'll do so",
+
+	"a_dashb_key": "Key:",
+	"a_dashb_value": "Value:",
+	"a_dashb_savebtn": "Save",
+	"a_dashb_pleasefill_cnxEnv": "Please enter your specific IBM Connections environment settings. Please fill in all required input / select fields $1. Without Connections Engagement Center will not work correctly!",
+
+	"a_dashb_type_activities": "Activities:",
+	"a_dashb_type_blogs": "Blogs:",
+	"a_dashb_type_bookmarks": "Bookmarks:",
+	"a_dashb_type_common": "Common:",
+	"a_dashb_type_communities": "Communities:",
+	"a_dashb_type_files": "Files:",
+	"a_dashb_type_forums": "Forums:",
+	"a_dashb_type_help": "Help:",
+	"a_dashb_type_homepage": "Homepage:",
+	"a_dashb_type_metrics": "Metrics:",
+	"a_dashb_type_mobile": "Mobile:",
+	"a_dashb_type_mobileadmin": "MobileAdmin:",
+	"a_dashb_type_moderation": "Moderation:",
+	"a_dashb_type_news": "News:",
+	"a_dashb_type_profiles": "Profiles:",
+	"a_dashb_type_proxy": "Proxy:",
+	"a_dashb_type_search": "Search:",
+	"a_dashb_type_widgetscontainer": "WidgetsContainer:",
+	"a_dashb_type_wikis": "Wikis:",
+
+	"a_dashb_globalSett_navpanel_title": "Global Settings",
+	"a_dashb_globalSett_title": "Global Settings",
+	"a_dashb_globalSett_caching": "Caching for Admins:",
+	"a_dashb_globalSett_newtabforcommunitylinks": "Open Community-Links in new Tab:",
+	"a_dashb_globalSett_allowurldebugging": "Allow debugging via URL:",
+
+	"a_dashb_CNXContextRoots_navpanel_title": "Connections ContextRoots",
+	"a_dashb_CNXContextRoots_title": "Context-Roots",
+
+	"a_dashb_CNXEnv_navpanel_title": "Connections Environment",
+	"a_dashb_CNXEnv_title": "Connections Environment",
+	"a_dashb_CNXEnv_customizationpath": "Customization Path:",
+	"a_dashb_CNXEnv_path_placeholder": "Enter your Customization Path here",
+	"a_dashb_CNXEnv_ltpacookiename": "LTPA Cookie Name:",
+
+	"a_dashb_anonymous_navpanel_title": "Anonymous Access",
+	"a_dashb_anonymous_title": "Anonymous Access:",
+	"a_dashb_anonymous_CNXhostname": "Connections Hostname:",
+	"a_dashb_anonymous_runasuser": "Run as User:",
+	"a_dashb_anonymous_runasuserpw": "Password:",
+
+	"a_dashb_backup_navpanel_title": "Backup",
+	"a_dashb_backup_title": "Backup",
+	"a_dashb_backup_enablebackup": "Enable Backup:",
+	"a_dashb_backup_interval": "Interval:",
+	"a_dashb_backup_daily": "Daily",
+	"a_dashb_backup_weekly": "Weekly",
+	"a_dashb_backup_monthly": "Monthly",
+
+	"a_dashb_customProps_navpanel_title": "Custom Properties",
+	"a_dashb_customProps_title": "Custom Properties",
+	"a_dashb_customProps_info": "Within these key-value pairs you have the possibility to save Strings for the usage in Custom Widgets, etc.",
+	"a_dashb_customProps_withindex": "Custom Property with index $1",
+
+	"a_dashb_langFiles_navpanel_title": "Language Files",
+	"a_dashb_langFiles_title": "Language Files",
+	"a_dashb_langFiles_reinitfiles": "ReInit Language Files",
+	"a_dashb_langFiles_reinitfiles_success": "Languagefiles reinitialisation successfully done.",
+	"a_dashb_langFiles_reinitfiles_failed": "Languagefiles reinitialisation has failed.",
+	"a_dashb_langFiles_reinitfiles_purgedfiles" : "Languagefiles have been purged.",
+	"a_dashb_langFiles_purgefiles_shortcut": "Press ctrl + shift (or cmd + shift on MAC) while clicking the ReInit button, to purge all language files.",
+	"a_dashb_delete_lang_file_title": "Delete Language File",
+	"a_dashb_delete_lang_file_msg": "Are you sure to delete '$1'",
+	"a_dasbh_sr_toggle_navi": "Toggle Navigation",
+	"a_dashb_globalSett_disableHTMLWidget" : "Disable HTML Widget:"
+
+}

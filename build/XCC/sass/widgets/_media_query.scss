@@ -1,0 +1,31 @@
+@media screen and (max-width: 1249px) {
+	body #lotusMain::before {
+		font-size: 3vw;
+		margin-left: -22.5vw;
+		top: 8vw;
+	}
+
+	body #sgHeadDiv {
+		height: 19vw;
+	}
+
+	.xccstyle .xccHeader .navigation ul.maindrop li a {
+		color: $navigationColorResponsive;
+		font-size: 1.3vw;
+	}
+}
+@media screen and (max-width: 1170px) {
+	body #sgHeadDiv {
+		height: 21vw;
+	}
+}
+@media screen and (max-width: 1000px) {
+	body #sgHeadDiv {
+		height: 23vw;
+	}
+
+	.xccstyle .navtop .navigation {
+		font-size: 13px;
+		margin: 0 0 1px;
+	}
+}

@@ -1,0 +1,9 @@
+<!-- Custom TTA properties -->
+<property>
+  <ref>language</ref>
+  <updatability>readwrite</updatability>
+  <hidden>false</hidden>
+  <fullTextIndexed>true</fullTextIndexed>
+</property>
+
+<!-- END Custom TTA properties -->

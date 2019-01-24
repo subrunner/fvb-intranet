@@ -1,0 +1,52 @@
+$xccFileUrl: "/xcc/rest/public/custom/";
+
+@font-face {
+	font-family: "Clarendon BT W01 Bold";
+	src: url($xccFileUrl + "5f46828c-8aef-4081-ad02-b361bfbb6226.eot?#iefix") format("eot"),
+	url("https://www.frankfurter-volksbank.de/fonts/d7d98090-0abd-4555-a378-283792ab1f74.ttf") format("truetype"),
+	url("https://www.frankfurter-volksbank.de/fonts/195c8e34-82bc-4e04-b3d7-00b92c32c4dd.svg#195c8e34-82bc-4e04-b3d7-00b92c32c4dd") format("svg");
+	src: url("https://www.frankfurter-volksbank.de/fonts/5f46828c-8aef-4081-ad02-b361bfbb6226.eot?#iefix");
+}
+
+//background-colors
+$bannerBackgroundColor: rgba(50, 92, 128, 0.8);
+$lotusui30BodyBackgroundColor: #F8F8F8;
+$navigationBackgroundColor: transparent;
+$navtopBackgroundATagColor: rgba(0, 0, 0, 0.5);
+$navtopHoverBackgroundATagColor: rgba(0, 0, 0, 0.4);
+$widgetBodyBackgroundColor: #FFF;
+//border-color
+$widgetBorderColor: #DDD;
+//box-shadow
+$widgetBoxShadowColor: rgba(0, 0, 0, 0.1);
+//button
+$buttonBorderColor: #FFF;
+//color
+$colorGray: #4B4B4B;
+$colorMediumGray: #747373;
+$colorLightGray: #D0D0D0;
+$colorWhite: #FFF;
+$colorBlue: rgb(0, 100, 162);
+$colorActive: $colorMediumGray;
+$colorHover: $colorBlue;
+$lotusMainColor: #FFF;
+$lotusui30BodyColor: #292929;
+$navigationColor: #000;
+$navigationColorResponsive: #FFF;
+$navigationHoverColor: #FFF;
+$navtopColor: #FFF;
+$navtopHoverColor: #FFF;
+$navtopHoverBoderColor: #000;
+$scBannerColor: #7E9EB9;
+$scBannerHoverColor: #FFF;
+$uiWidgetColor: #666;
+$uiWidgetVisitedColor: #333;
+$widgetBodyColor: #333;
+$widgetHeaderColor: #FFF;
+//fill
+$scBannerSVGColor: #7E9EB9;
+$scBannerSVGHoverColor: #FFF;
+
+// fonts
+$fontFamilyClarendol: "Clarendon BT W01 Bold,Arial,sans-serif";
+$fontFamilyHelvetica: "\"Helvetica Neue\", Helvetica, Arial, sans-serif";

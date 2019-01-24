@@ -1,0 +1,6 @@
+.chpFlyout div.lotusFlyoutContent div.lotusFlyoutContentArea .ASWidgetMainNavi,
+.chpFlyout div.lotusFlyoutContent div.wbody div.xccASWidget .ASWidgetMainNavi,
+.xccWidget[data-wtype="xccASWidget"] div.lotusFlyoutContentArea .ASWidgetMainNavi,
+.xccWidget[data-wtype="xccASWidget"] div.wbody div.xccASWidget .ASWidgetMainNavi {
+	background-color: $colorBlue;
+}

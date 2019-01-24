@@ -1,0 +1,558 @@
+@import "variables/all";
+@import "mixins/all";
+
+/*
+* Custom CSS Timetoact
+* Von Susanne Brunner
+*/
+
+
+/* most customizations is done here. Just all the picture URLS are in the xcc so that it is
+exchanged lotusBannerCommunitiesExternal*/
+
+
+/* Logo */
+.lotusui30 div.lotusBanner .lotusLogo .lotusAltText {
+	display: none;
+}
+
+
+/* IBM-Logo */
+.lotusui30 .lotusBanner .lotusIBMLogo {
+	display: none;
+}
+
+/*
+
+Top right icons
+
+
+*/
+.lotusui30 .lotusBanner .lotusUtility img.lotusArrow {
+	display: none; /* hide dropdown arrows */
+}
+
+.lotusui30 .lotusBanner .lconnBannerIcon {
+	background-image: none;
+	display: inline-block;
+}
+
+
+/* Homepage */
+#lconnBannerHomepageLabel {
+	display: none;
+}
+
+
+
+
+/*
+
+
+Navigations
+
+
+*/
+/* Navigation */
+.lotusui30 div.lotusBanner .lotusRightCorner {
+	background: $colorBlue;
+	color: $colorWhite;
+	padding-bottom: 0;
+}
+
+//.lotusui30 div.lotusBanner .lotusRightCorner a {
+//font-family: TheSansBold, Arial, Verdana, sans-serif;
+//}
+
+/* link actions */
+.lotusui30 .lotusBanner ul.lotusInlinelist {
+	/* give the list something to display on top in blud*/
+	border-top: 3px solid $colorBlue;
+	//text-transform: uppercase;
+
+}
+
+//.lotusui30 .lotusBanner ul.lotusInlinelist > li {
+// margin-bottom: -5px;
+//font-size: 115%;
+//font-spacing: 1.5;
+//}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li:hover {
+	background: $colorBlue;
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li:hover > a {
+	background: $colorBlue;
+	color: $colorActive;
+	/*font-family: TheSansBold, Arial, Verdana, sans-serif;*/
+
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusSelected a {
+	background: $colorBlue;
+	color: $colorActive;
+	/* override the first-child-no-padding here... */
+	padding-left: 3px;
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusSelected a:active,
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusSelected a:focus,
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusSelected a:hover {
+	background: $colorBlue;
+	color: $colorActive;
+	/*font-family: TheSansBold, Arial, Verdana, sans-serif;*/
+
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:focus,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:hover {
+	background: $colorBlue;
+	color: $colorActive;
+	/*border-bottom: 0px;*/
+	/*font-family: TheSansBold, Arial, Verdana, sans-serif;*/
+
+}
+
+
+
+/* seltsames Hover-Verhalten ausschalten */
+.lotusui30 .lotusBanner ul.lotusInlinelist li:not(.shareboxLi) a:active::before,
+.lotusui30 .lotusBanner ul.lotusInlinelist li:not(.shareboxLi) a:focus::before,
+.lotusui30 .lotusBanner ul.lotusInlinelist li:not(.shareboxLi) a:hover::before {
+	border: none;
+}
+
+.lotusHover a {
+	background: $colorBlue !important;
+
+}
+
+/* 'Teilen' Button'*/
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
+	background: $colorMediumGray;
+	border: none;
+	color: $colorWhite;
+
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:active,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:focus,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:hover {
+	background: $colorMediumGray;
+	color: $colorWhite;
+}
+
+/* integrated-Leiste*/
+.xccstyle .lotusTitleBar,
+.xccstyle .lotusTitleBar2 {
+	height: 0;
+}
+
+//.lotusui30 .lotusTitleBar2 .lotusWrapper .lotusInner {
+///*background-image: url("/xcc/rest/public/custom/integrated_CO_84px.png");
+//background-repeat: no-repeat;
+//background-position: 10px 30px;*/
+///* Seitentitel nicht darstellen */
+//}
+
+.lotusui30 .lotusTitleBar2 .lotusWrapper .lotusInner .lotusHeading {
+	display: none;
+}
+
+/*
+
+Right Navigation - to be transported to custom.css
+
+*/
+.lotusui30 .lotusBanner ul.lotusUtility li {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist.lotusLinks li a {
+	color: $colorBlue; // hide the real text...
+	height: 24px; // damit die Höhe des Navigations-Textes so groß ist wie die Icons Rects
+	padding-left: 20px
+}
+
+.lotusBanner ul.lotusInlinelist.lotusLinks li a span {
+	bottom: 13px;
+	color: $colorWhite;
+	font-size: 1.1em;
+	left: 12px; // aligns the navigational text to the bottom of the 42px
+	position: absolute;
+
+}
+
+.lotusBanner ul.lotusInlinelist.lotusLinks li a:hover span {
+	color: $colorActive;
+}
+
+.lotusui30 .lotusBanner #headerMenuContainer li.lotusSelected a {
+	padding-left: 11px;
+}
+
+/* notification alert */
+.icBanner-badge-onprem {
+	left: 30px;
+	top: -40px;
+}
+
+
+
+/*
+* footer
+*/
+
+.lotusui30 .lotusFooter {
+	background-color: $colorBlue;
+	border-width: 0;
+	max-width: 5000px;
+	padding-bottom: 100px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.lotusui30 .lotusFooter a ,
+.lotusui30 .lotusFooter a :visited {
+	color: $colorWhite;
+}
+
+.lotusui30 .lotusFooter a:active,
+.lotusui30 .lotusFooter a:focus,
+.lotusui30 .lotusFooter a:hover {
+	color: $colorActive;
+}
+
+//* Minimum display width of entire Connections App */
+.lotusui30_body .lotusFrame {
+	min-width: 1024px;
+}
+
+
+//* Logo */
+
+//.lotusui30 div.lotusBanner .lotusLogo {
+//@include header-image-logo-square;
+//background-image: url($xccFileUrl + "Logo_ONE_header.png");
+//background-position: 10px -5px;
+//background-size: auto 120%;
+//height: $heightHeader;
+//width: 90px;
+//}
+
+
+
+/*
+
+Top right icons
+
+
+*/
+
+.lotusui30 .lotusBanner .lconnBannerIcon {
+	background-image: url($xccFileUrl + "topRightSprite.png"); /* load correct sprite file */
+	height: 24px;
+	width: 24px; /* make all icons 24x24px */
+}
+
+/* Notification Center */
+.lconnSprite.iconsComponents16-Notifications {
+	background-image: url($xccFileUrl + "topRightSprite.png");
+	background-position: -96px 0;
+	height: 24px;
+	width: 24px; /* make all icons 24x24px */
+}
+
+.icBanner-notif-center {
+	display: block !important; /* so that the notification popup gets displayed... */
+}
+
+// only hide the notification center dropdown if we've got an action center! Otherwise, proceed as usual!
+#ic-action-center-root ~ #lotusBannerNotifications_dropdown {
+	display: none !important;
+}
+
+body > .icBanner-notif-center {
+	display: none !important; //* do not display the thing until it has been packed into the display popup */
+}
+
+// $number: number in the icon sprite, starting with 0. It is assumed that first
+// there is the normal icon, and immediately afterwards the highlighted one.
+// Each icon is 24px x 24px
+@mixin top-right-icon-generator($iconSelector, $number) {
+	#{$iconSelector} .lconnBannerIcon {
+		background-position: (-2 * $number * 24px) 0;
+	}
+
+	#{$iconSelector} a:focus .lconnBannerIcon,
+	#{$iconSelector} a:hover .lconnBannerIcon,
+	#{$iconSelector}.lotusSelected .lconnBannerIcon {
+		background-position: ((-2 * $number * 24px) - 24px) 0;
+	}
+}
+
+// Generate the icon styles for the right navigation buttons
+.lotusui30 {
+
+	// all banner icons: no margin
+	.lotusBanner .lconnBannerIcon {
+		margin-right: 0;
+	}
+
+	// Homepage
+	@include top-right-icon-generator("#lotusBannerHomepage", 1);
+
+	#lotusBannerHomepage .lconnBannerIcon {
+		margin: 0 !important; // don't treat homepage different from other icons
+	}
+
+	// communities
+	@include top-right-icon-generator("#lotusBannerCommunities", 0);
+	@include top-right-icon-generator("#lotusBannerCommunitiesExternal", 0);
+
+	//
+	// Notifications
+	//
+	@include top-right-icon-generator("#lotusBannerNotifications", 2);
+
+	// special case: remove the padding left
+	.lotusBanner ul.lotusInlinelist li#lotusBannerNotifications {
+		padding-left: 0;
+	}
+
+	// Files
+	@include top-right-icon-generator("#lotusBannerFiles", 5);
+
+	// Help
+	@include top-right-icon-generator("#headerHelpIcon", 4);
+
+	#headerHelpHref.currentPage .lconnBannerIcon {
+		background-position: -216px 0	!important;
+	}
+
+
+
+}
+
+
+
+/*
+
+
+Navigations
+
+
+*/
+
+#integratedNavigation {
+	float: left;
+	//text-transform: uppercase;
+	width: 39%; /* so that the min-width of 1024px stil has the navigation displayed correctly */
+	z-index: 200;
+ }
+
+#integratedNavigation .hasDropdown {
+	padding-left: 10px;
+}
+
+#integratedNavigation .navLevel-1,
+#integratedNavigation .navLevel-2,
+#integratedNavigation .navLevel-3 {
+	background: $colorWhite;
+	box-shadow: 2px 3px 12px -4px $widgetBoxShadowColor;
+	display: none;
+	//font-family: $fontDefault;
+}
+
+
+#integratedNavigation .navLevel-0 {
+	display: inline-block;
+	float: left;
+	//font-family: $fontTheSans;
+	position: relative;
+
+	> li > a {
+		color: transparent;
+	}
+}
+
+#integratedNavigation .navLevel-0 .currentPage span {
+	color: $colorActive !important;
+}
+
+
+#integratedNavigation .navLevel-0 li {
+	cursor: pointer;
+}
+
+#integratedNavigation .navLevel-0 li:hover .navLevel-1 {
+	display: block;
+	position: fixed;
+}
+
+
+#integratedNavigation .navLevel-0 .navLevel-1 {
+	background-color: $colorWhite;
+	padding-left: 0;
+	text-transform: none;
+	width: auto;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 a,
+#integratedNavigation .navLevel-0 .navLevel-1 a:hover {
+	background: 0;
+	border: none;
+	margin: 0 !important;
+	padding: 11px 11px 9px 12px !important;
+	text-decoration: none;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 li {
+	border-bottom: 1px solid $scBannerColor;
+	border-top: 1px solid $colorWhite;
+	margin: 0;
+	white-space: nowrap;
+	width: 100%;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 li:first-child {
+	border-top: 1px solid $scBannerColor;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 li a {
+	color: $colorBlue;
+	/*font-size: 14px; */
+}
+
+/* Hovers */
+#integratedNavigation .navLevel-0 .navLevel-1 li a:hover {
+	color: $colorActive;
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist .navLevel-1 li:hover {
+	background-color: $colorWhite;
+	color: $colorActive;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 li:hover {
+	border-bottom: 1px solid $colorLightGray;
+	border-top: 1px solid $colorLightGray;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 li:hover .navLevel-2 {
+	display: block;
+	position: absolute;
+}
+
+#integratedNavigation .navLevel-0 .navLevel-1 .navLevel-2 li:hover .navLevel-3 {
+	display: block;
+	position: absolute;
+}
+
+#integratedNavigation .navLevel-2 {
+	background-color: $colorWhite;
+	left: 0;
+	margin-left: 100%;
+	padding-left: 0;
+	top: -1px;
+}
+
+#integratedNavigation .navLevel-3 {
+	background-color: $colorWhite;
+	left: 0;
+	margin-left: 100%;
+	padding-left: 0;
+	top: -1px;
+}
+
+
+.lotusui30 .lotusBanner li:hover > a,
+.lotusui30 .lotusBanner li a,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:focus,
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:hover,
+.lotusui30 .lotusBanner ul.lotusInlinelist li:hover {
+	background: transparent !important;
+}
+
+.lotusui30 .lotusBanner ul.lotusInlinelist {
+	border-color: transparent !important;
+}
+
+/* Share-button */
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
+	@include color-green-button(!important);
+
+	//font-family: $fontTheSans;
+	height: 24px;
+	margin: 7px 6px 5px;
+	padding: 6px 17px 0;
+
+	&:hover {
+		@include color-green-button-hover(!important);
+	}
+}
+
+.lotusui30 #headerSharebox {
+	padding-right: 20px;
+}
+
+/*
+
+
+Search
+
+
+*/
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+	background-color: $colorActive;
+	outline-color: $colorActive;
+}
+
+.search-result-pages-restyle .lotusui30 div.lotusTitleBar	.stickySearch,
+.search-result-pages-restyle .lotusui30 div.lotusTitleBar2 .stickySearch {
+	position: fixed;
+	right: 25px;
+}
+
+/*
+
+Content header
+
+
+*/
+.lotusui30 .lotusTitleBar2 .lotusWrapper .lotusInner .lotusHeading {
+	display: inline;
+}
+
+
+
+
+//*******************
+//
+//     Logo
+//
+//****************++
+.lotusui30 div.lotusBanner ul.lotusUtility .lotusBranding {
+	//$marginTop: 10px;
+	//background-image: url( $xccFileUrl + "logo_white.png");
+	//background-repeat: no-repeat;
+	//background-size: 100%;
+	//cursor: pointer;
+	//height: (24px - $marginTop);
+	//margin-top: $marginTop;
+	//padding: 11px 11px 12px 20px;
+	//width: 18px;
+	display: none;
+}
+
+.lotusui30 .lotusBanner .lotusLogo {
+	background-image: url($xccFileUrl +"logo_white.png");
+	width: 170px;
+	height: 30px;
+	background-size: 100%;
+	margin-top: 20px;
+}

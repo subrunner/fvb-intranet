@@ -1,0 +1,39 @@
+.xccstyle .xccWidget .wheader .wtitle {
+	color: $colorBlue;
+	font-family: $fontFamilyClarendol;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	top: 10px;
+}
+
+.xccstyle .xccWidget .wheader {
+	border-bottom: none;
+	padding-bottom: 15px;
+}
+
+.xccstyle .xccWidget {
+	background-color: $widgetBodyBackgroundColor;
+	border: none;
+	box-shadow: 0 4px 10px 0 $widgetBoxShadowColor;
+	margin: 40px 0 0;
+	padding: 10px 25px;
+}
+
+body .ui-widget {
+	color: $uiWidgetColor;
+	font-family: Roboto, Arial, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+body .ui-widget a:not(.xccStaticLink):not(.download),
+body .ui-widget a:not(.xccStaticLink):not(.download):visited {
+	color: $uiWidgetVisitedColor;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.xccstyle .xcctabbedwidget .qlC {
+	border: none !important;
+}

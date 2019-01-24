@@ -1,0 +1,71 @@
+# rules doc: https://github.com/sasstools/sass-lint/tree/master/docs/rules
+rules:
+
+  variable-name-format: [1, {
+      allow-leading-underscore: false,
+      convention: camelcase
+  }]
+
+  attribute-quotes: [2, {
+    include: true
+  }]
+
+  brace-style: [2, {
+    style: "1tbs",
+    allow-single-line: false
+  }]
+
+  border-zero: [1, {
+    convention: "none"
+  }]
+
+  class-name-format: 0
+
+  declarations-before-nesting: 2
+  empty-line-between-blocks: [2, {
+    include: true,
+    allow-single-line-rulesets: false
+  }]
+
+  final-newline: [2, {
+    include: false
+  }]
+
+  force-attribute-nesting: 0
+  force-element-nesting: 0
+  force-pseudo-nesting: 0
+
+
+  function-name-format: [2, {
+    convention: camelcase
+  }]
+
+  hex-length: 1
+  hex-notation: [2, {
+    style: uppercase
+  }]
+
+  indentation: [2, {
+    size: 'tab'
+  }]
+
+  leading-zero: [1, {
+    include: true
+  }]
+
+  no-ids: 0
+  no-important: 0
+  no-invalid-hex: 2
+  no-misspelled-properties: 2
+  no-qualifying-elements: 0
+  no-universal-selectors: 2
+  one-declaration-per-line: 2
+  quotes: [2, {
+    style: double
+  }]
+
+  zero-unit: [2, {
+    include: false
+  }]
+
+  no-css-comments: 0

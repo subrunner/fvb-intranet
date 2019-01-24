@@ -1,0 +1,4 @@
+<!-- Custom TTA resource bundle  - in "resources" node-->
+<widgetBundle prefix="customBundle" name="de.timetoact.resources.profileExtensions"/>
+
+<!-- END Custom TTA resource bundle -->

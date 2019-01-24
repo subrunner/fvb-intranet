@@ -1,0 +1,5 @@
+# This will add vendor prefixes for the last two versions of EACH Browser
+# Browser support is based on caniuse.com
+# Check which browsers are included with "npx browserslist" in your terminal.
+# see https://github.com/browserslist/browserslist#queries for documentation
+last 2 versions

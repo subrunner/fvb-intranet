@@ -1,0 +1,19 @@
+
+.xccstyle .xccCommunityOverview .newsOverviewContainer,
+.xccstyle .xccNewsOverview .newsOverviewContainer {
+	height: 100%;
+	max-height: 200px;
+	width: 100%;
+}
+
+.xccstyle .xccCommunityOverview .newsOverviewContent,
+.xccstyle .xccNewsOverview .newsOverviewContent {
+	padding: 0;
+	width: 100%;
+}
+
+.xccstyle .xccCommunityOverview .xccEntryExt,
+.xccstyle .xccNewsOverview .xccEntryExt {
+	border-bottom: 2px solid $colorLightGray;
+	padding-bottom: 10px;
+}

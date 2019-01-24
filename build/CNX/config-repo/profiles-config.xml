@@ -1,0 +1,16 @@
+<!--
+
+			CUSTOM PROFILE EXTENSIONS
+			TTA
+
+      in <profileExtensionAttributes> node
+			-->
+		  <simpleAttribute extensionId="language" length="10"/>
+
+			<!-- end TTA Custom profile extensions -->
+
+----------------------------------------------------------
+
+<!-- Space-delimited set of identifiers for the custom resource bundles:
+add 'customBundle' to <templateNlsBundles> node -->
+<templateNlsBundles>customBundle</templateNlsBundles>

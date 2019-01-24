@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "variables/all";
+@import "modules/grid";
+@import "widgets/all";
+
+
+html:not([dir="rtl"]) .xccstyle .customize {
+	right: 0;
+	top: 0;
+}
+
+/* END fix basic core css issues */
+body {
+	font-family: $fontFamilyHelvetica;
+	font-size: 13px;
+}
+
+#xccBody .xcc-page-title .lotusText,
+.lotusFrame .lotusTitleBar2 .lotusHeading .lotusText {
+	display: none;
+}
+
+body #lotusMain::before {
+	/*content: "IBM Collaboration Solutions & Talent";*/
+	color: $lotusMainColor;
+	font-size: 2.5vw;
+	font-weight: 300;
+	left: 50%;
+	margin: 0;
+	margin-left: -19vw;
+	padding: 0;
+	position: absolute;
+	top: 0;
+}
+
+.lotusui30 .lotusHeading {
+	color: $widgetHeaderColor;
+	font-family: $fontFamilyHelvetica;
+	font-size: 3vw;
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.xccstyle #xccContent {
+	top: 2vw;
+}
+
+.lotusui30_body {
+	background-color: $lotusui30BodyBackgroundColor;
+	color: $lotusui30BodyColor;
+}
+
+
+
+body .container {
+	color: $uiWidgetColor;
+	font-family: Roboto, Arial, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+body .container a:not(.xccStaticLink):not(.download),
+body .container a:not(.xccStaticLink):not(.download):visited {
+	color: $uiWidgetVisitedColor;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.btn-default {
+	box-shadow: 1px 1px 5px 0 $widgetBoxShadowColor;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+	background-color: $colorBlue;
+}
+
+// Hovers
+.container a:active:not(.xccStaticLink):not(.download),
+.container a:hover:not(.xccStaticLink):not(.download),
+.ui-widget a:active:not(.xccStaticLink):not(.download),
+.ui-widget a:hover:not(.xccStaticLink):not(.download) {
+	color: $colorHover;
+}
+
+.xccstyle .breadcrumb,
+#icecMobileMenuButton {
+	display: none;
+}
+
+
+
+.xccstyle .xccIconLinks {
+	color: $colorBlue;
+}

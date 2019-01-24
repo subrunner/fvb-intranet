@@ -1,0 +1,16 @@
+@mixin color-green-button($important: null) {
+	background: $colorMediumGray $important;
+	border: 1px solid transparent $important;
+	border-radius: 0 $important;
+	box-shadow: none;
+	color: $colorWhite $important;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+
+@mixin color-green-button-hover($important: null) {
+	background: $colorWhite $important;
+	border: 1px solid $colorBlue;
+	box-shadow: none;
+	color: $colorBlue $important;
+}
